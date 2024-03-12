@@ -131,6 +131,7 @@ FunctionIdentifier {
   AvgOverTime |
   Ceil |
   Changes |
+  ChangesPrometheus |
   Clamp |
   ClampMax |
   ClampMin |
@@ -142,6 +143,7 @@ FunctionIdentifier {
   DayOfWeek |
   Deg |
   Delta |
+  DeltaPrometheus |
   Deriv |
   Exp |
   Floor |
@@ -150,6 +152,7 @@ FunctionIdentifier {
   Hour |
   Idelta |
   Increase |
+  IncreasePrometheus |
   Irate |
   LabelReplace |
   LabelJoin |
@@ -369,6 +372,7 @@ NumberLiteral  {
   AvgOverTime { condFn<"avg_over_time"> }
   Ceil { condFn<"ceil"> }
   Changes { condFn<"changes"> }
+  ChangesPrometheus { condFn<"changes_prometheus"> }
   Clamp { condFn<"clamp"> }
   ClampMax { condFn<"clamp_max"> }
   ClampMin { condFn<"clamp_min"> }
@@ -380,6 +384,7 @@ NumberLiteral  {
   DayOfWeek { condFn<"day_of_week"> }
   Deg { condFn<"deg"> }
   Delta { condFn<"delta"> }
+  DeltaPrometheus { condFn<"delta_prometheus"> }
   Deriv { condFn<"deriv"> }
   Exp { condFn<"exp"> }
   Floor { condFn<"floor"> }
@@ -388,6 +393,7 @@ NumberLiteral  {
   Hour { condFn<"hour"> }
   Idelta { condFn<"idelta"> }
   Increase { condFn<"increase"> }
+  IncreasePrometheus { condFn<"increase_prometheus"> }
   Irate { condFn<"irate"> }
   LabelReplace { condFn<"label_replace"> }
   LabelJoin { condFn<"label_join"> }
